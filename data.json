@@ -1,0 +1,117 @@
+{
+  "name": "Karan Jain",
+  "tagline": "B.Tech (AI & DS) \u2014 Indian Institute of Technology, Jodhpur",
+  "contact": {
+    "email": "karanj1601@gmail.com",
+    "altEmail": "jain.49@iitj.ac.in",
+    "phone": "+91-9910140159",
+    "github": "https://github.com/karanjain1601",
+    "linkedin": "https://www.linkedin.com/in/karan-jain-8a62991b9/"
+  },
+  "order": [
+    "Education",
+    "Experience",
+    "Projects",
+    "Courses",
+    "Skills",
+    "Achievements"
+  ],
+  "sections": {
+    "Education": [
+      {
+        "title": "B.Tech. (AI & DS)",
+        "meta": "Indian Institute Of Technology, Jodhpur \u2014 CGPA: 8.26 (2024)",
+        "details": ""
+      },
+      {
+        "title": "Senior Secondary",
+        "meta": "CBSE \u2014 95.2% (2020)"
+      },
+      {
+        "title": "Secondary",
+        "meta": "CBSE \u2014 96.4% (2018)"
+      }
+    ],
+    "Experience": [
+      {
+        "title": "Undergraduate Intern \u2014 Computationally light-weight models for image classification",
+        "meta": "IIT Jodhpur (Aug 2023 - Present)",
+        "details": "Worked with Dr. Angshuman Paul. Developed a novel ViT architecture with reduced compute and strong efficiency-performance trade-offs; project headed for publication."
+      },
+      {
+        "title": "Data Science Intern \u2014 Avlino",
+        "meta": "Bangalore (May 2023 - Jul 2023)",
+        "details": "Reinforcement learning solution for Container Relocation Problem using DQN; introduced methods for event-truncation & redistribution; simulated on real data."
+      }
+    ],
+    "Projects": [
+      {
+        "title": "Cubix",
+        "meta": "AI Algorithms (Nov 2022)",
+        "details": "Various AI algorithms to solve NxNxN Rubik\u2019s Cube."
+      },
+      {
+        "title": "Toxic Comment Classification",
+        "meta": "ML (NLP) May 2022",
+        "details": "ML/NLP classifier with an I/O interface."
+      },
+      {
+        "title": "Bitcoin Price Prediction",
+        "meta": "ML (Time Series) May 2022",
+        "details": "Visualization and prediction using LSTM models."
+      },
+      {
+        "title": "AutoNorm",
+        "meta": "Data Engineering Nov 2022",
+        "details": "Auto-normalization pipeline and auto-insert to DB."
+      },
+      {
+        "title": "MultiParaphraser",
+        "meta": "DLOps May 2023",
+        "details": "Paraphrasing web app combining multiple paraphrasers."
+      },
+      {
+        "title": "IPL Dashboard",
+        "meta": "Data Viz May 2023",
+        "details": "Historic IPL dashboard built with Python Dash."
+      }
+    ],
+    "Courses": [
+      {
+        "title": "Data Structures & Algorithms"
+      },
+      {
+        "title": "Pattern Recognition & Machine Learning"
+      },
+      {
+        "title": "Deep Learning"
+      },
+      {
+        "title": "Computer Vision"
+      }
+    ],
+    "Skills": [
+      "C/C++",
+      "Python",
+      "SQL",
+      "R",
+      "PyTorch",
+      "Pandas",
+      "NumPy",
+      "scikit-learn",
+      "Dash",
+      "Git"
+    ],
+    "Achievements": [
+      {
+        "title": "Gold Level \u2014 Brain WorldQuant Alphathon 2023"
+      },
+      {
+        "title": "NTSE State Clearance & Scholarship (2017)"
+      },
+      {
+        "title": "Student Guide \u2014 Student Welfare Committee, IIT Jodhpur (Aug 2021 - May 2022)"
+      }
+    ]
+  }
+}

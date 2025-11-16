@@ -1,14 +1,40 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Karan Jain</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <div class="topbar">
+    <div class="left">
+      <button id="printBtn" title="Print / Save as PDF">🖨️ Print</button>
+      <button id="themeBtn" title="Toggle theme">🌗 Theme</button>
+    </div>
+    <div class="right">
+      <small>Auto-rendered from <code>data.json</code></small>
+    </div>
+  </div>
+
+  <main class="container">
+    <header class="header">
+      <div class="name-block">
+        <h1 id="name">Loading...</h1>
+        <p id="tagline"></p>
+      </div>
+      <div class="contact" id="contact"></div>
+    </header>
+
+    <nav class="toc" id="toc"></nav>
+
+    <section id="content" class="grid"></section>
+
+    <footer class="footer">
+      <small>Update <code>data.json</code> and push to GitHub to change content — HTML doesn't need edits.</small>
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
